@@ -12,7 +12,7 @@ The `AttemptTimeEvolution.py` is the original python file for calculating the ti
 The `TimeEvolutionMultiThread.py` is the multiple thread version of `AttemptTimeEvolution.py`, which could be faster or maybe not. With my own computer (cpu i7 10750 12 cores), the speed is about 5 to 10 times faster. However on the server panther2 the multiple thread version is slower.
 And the time evolution of MPS will be save as `.p` (pickle file)
 
-
+(Notice since MPS files are large about 400mb so I can't upload them to github, you need to run `TimeEvolutionMultiThread.py` file first to generate the MPS file and then run `MultipleSuperMode.py` function.)
 After we got the pickle file of MPS, we use the `MultipleSuperMode.py` to plot the Wigner function, calculate Negativity, purity, and energy.
 And the `AttemptTimeEvolution.py` is the file that only plot one Wigner functions instead all, which is clear to read.
 There are also `CheckDisplacementOperator.py` file for checking whether our wigner function is accurate for displaced state.
